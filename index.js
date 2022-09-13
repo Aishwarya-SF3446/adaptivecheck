@@ -91,9 +91,9 @@ var grid = new ej.grids.Grid({
     },
   ],
   columns: [
-    { field: 'fieldData.UserPhoto', headerText: 'photo', width: 150 },
-    { field: 'fieldData.ReverseName', headerText: 'Name', width: 150 },
-    { field: 'fieldData.StatusButton', headerText: 'Name', width: 150 },
+    { field: 'fieldData.UserPhoto', headerText: 'photo' },
+    { field: 'fieldData.ReverseName', headerText: 'Name'},
+    { field: 'fieldData.StatusButton', headerText: 'Name'},
   ],
   //rowHeight:80,
   enableAdaptiveUI: true,
