@@ -90,16 +90,14 @@ var grid = new ej.grids.Grid({
       recordId: '2742',
     },
   ],
-  columns: [
-    { field: 'fieldData.UserPhoto', headerText: 'photo' },
-    { field: 'fieldData.ReverseName', headerText: 'Name'},
-    { field: 'fieldData.StatusButton', headerText: 'Name'},
-  ],
-  //rowHeight:80,
-  enableAdaptiveUI: true,
   rowRenderingMode: 'Vertical',
-  //height: "100%",
-  width: 'auto',
+  enableAdaptiveUI: true,
+  height: '100%',
+  columns: [
+    { field: 'fieldData.UserPhoto', headerText: 'photo', width: 180 },
+    { field: 'fieldData.ReverseName', headerText: 'Name', width: 180},
+    { field: 'fieldData.StatusButton', headerText: 'Name', width: 180},
+  ],
   load: function () {
     if (!ej.base.Browser.isDevice) {
       grid.adaptiveDlgTarget =
