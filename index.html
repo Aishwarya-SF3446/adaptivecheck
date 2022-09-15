@@ -1,38 +1,63 @@
-<html><head><script src="//ej2.syncfusion.com/javascript/demos/grid/adaptive/datasource.js" type="text/javascript"></script>
-<script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
-    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+<!DOCTYPE html><html lang="en"><head>
+        <title>EJ2 Grid</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Typescript Grid Control">
+        <meta name="author" content="Syncfusion">
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-navigations/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-dropdowns/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-lists/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-inputs/styles/material.css" rel="stylesheet">
+        <link href="https://cdn.syncfusion.com/ej2/ej2-calendars/styles/material.css" rel="stylesheet">
+        
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script> 
+        
+        <link href="https://cdn.syncfusion.com/ej2/ej2-splitbuttons/styles/material.css" rel="stylesheet">
+        
+    <script src="ej2.js"></script>
+	
+    <script src="datasource.js" type="text/javascript"></script>
     <style>
-            body{
-                touch-action:none;
-            }
-        </style></head><body><div class="stackblitz-container bootstrap5"><div class="col-lg-9 control-section">
-    <div class="content-wrapper e-bigger e-adaptive-demo">
-        <div class="e-mobile-layout">
-            <div class="e-mobile-content">
-                <div id="adaptivebrowser"></div>
+       @media screen and (min-width: 600px) {
+
+
+}
+
+.e-grid {
+    left: 92px;
+}
+    </style>
+    </head>
+    <body>
+        <div class="col-lg-9 control-section">
+            <div class="content-wrapper e-bigger e-adaptive-demo">
+                <div class="e-mobile-layout">
+                    <div class="e-mobile-content">
+                        <div id="adaptivebrowser"></div>
+                    </div>
+                </div>
+                <div id="adaptivedevice"></div>
             </div>
         </div>
-        <div id="adaptivedevice"></div>
-    </div>
-</div>
-<div class="col-lg-3 property-section">
-    <table id="property" title="Properties" style="width: 100%">
-        <tbody><tr>
-            <td style="width: 70%">
-                <div>Enable horizontal row mode</div>
-            </td>
-            <td style="width: 30%;padding:0px 10px 10px 0px">
-                <div style="padding-top: 0px;">
-                    <input type="checkbox" id="fullscreen">
-                </div>
-            </td>
-        </tr>
-    </tbody></table>
-</div>
-</div>
-    
-    <script src="index.js" type="text/javascript"></script>
+        <div class="col-lg-3 property-section">
+            <table id="property" title="Properties" style="width: 100%">
+                <tr>
+                    <td style="width: 70%">
+                        <div>Enable horizontal row mode</div>
+                    </td>
+                    <td style="width: 30%;padding:0px 10px 10px 0px">
+                        <div style="padding-top: 0px;">
+                            <input type="checkbox" id='fullscreen' />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    <script src="sample.js" type="text/javascript"></script>
     </body></html>
